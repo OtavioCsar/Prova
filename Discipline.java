@@ -3,7 +3,7 @@ public class Discipline {
   float notaFinal;
   Professor professor;
 
-  Discipline(String dName,float notaFinal ,String pName){
+  Discipline(String dName, float notaFinal, String pName) {
     professor = new Professor(pName);
     name = dName;
     this.notaFinal = notaFinal;
