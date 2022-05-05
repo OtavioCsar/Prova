@@ -12,6 +12,7 @@ public class Discipline {
   void showReportDisc() {
     System.out.println("\nDisciplina:" + name + "\nProfessor:" + professor.name + "\nFinal:" + notaFinal);
   }
+
   float nFinal() {
     return notaFinal;
   }
