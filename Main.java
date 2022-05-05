@@ -15,7 +15,7 @@ class Main {
 
     BDD.showReportDisc();
     POO.showReportDisc();
-    
+
     aluno1.showReport();
     aluno2.showReport();
   }

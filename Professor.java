@@ -1,7 +1,7 @@
-public class Professor{
+public class Professor {
   String name;
 
-  Professor(String pName){
+  Professor(String pName) {
     name = pName;
   }
 }
