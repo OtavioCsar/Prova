@@ -7,8 +7,8 @@ class Main {
     Curso CPU = new Curso("\nCPU", BDD, POO, Ingles);
     Curso Veterinaria = new Curso("\nVeterinaria", BDD, POO, Ingles);
 
-    Student aluno1 = new Student("Pedro", 00000, CPU);
-    Student aluno2 = new Student("Otavio", 00001, Veterinaria);
+    Student aluno1 = new Student("\nPedro", 00000, CPU);
+    Student aluno2 = new Student("\nOtavio", 00001, Veterinaria);
 
     System.out.println(aluno1.curso.cAverage());
     System.out.println(aluno2.curso.cAverage());

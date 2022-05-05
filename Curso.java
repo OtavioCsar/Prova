@@ -19,8 +19,10 @@ public class Curso {
 
   boolean approved() {
     if (cAverage() >= 60) {
+      System.out.println("Aprovado!");
       return true;
     } else {
+      System.out.println("Não foi aprovado");
       return false;
     }
   }

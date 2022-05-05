@@ -3,16 +3,15 @@ public class Discipline {
   float notaFinal;
   Professor professor;
 
-  Discipline(String dName, float notaFinal, String pName) {
+  Discipline(String dName, float nFinal, String pName) {
     professor = new Professor(pName);
     name = dName;
-    this.notaFinal = notaFinal;
+    notaFinal = nFinal;
   }
 
   void showReportDisc() {
-    System.out.println("Disciplina:" + name + "\nProfessor:" + professor.name + "\nFinal:" + notaFinal);
+    System.out.println("\nDisciplina:" + name + "\nProfessor:" + professor.name + "\nFinal:" + notaFinal);
   }
-
   float nFinal() {
     return notaFinal;
   }
